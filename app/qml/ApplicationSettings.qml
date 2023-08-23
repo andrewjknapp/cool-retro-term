@@ -42,7 +42,7 @@ QtObject {
     property int width: 1024
     property int height: 768
 
-    property bool fullscreen: false
+    property bool fullscreen: true
     property bool showMenubar: false
 
     property string wintitle: "cool-retro-term"
