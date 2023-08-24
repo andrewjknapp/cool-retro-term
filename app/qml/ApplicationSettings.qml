@@ -37,12 +37,12 @@ QtObject {
     property bool isMacOS: Qt.platform.os === "osx"
 
     // GENERAL SETTINGS ///////////////////////////////////////////////////////
-    property int x: 100
-    property int y: 100
-    property int width: 1024
-    property int height: 768
+    property int x: 0
+    property int y: 0
+    property int width: 300
+    property int height: 300
 
-    property bool fullscreen: true
+    property bool fullscreen: false
     property bool showMenubar: false
 
     property string wintitle: "cool-retro-term"
@@ -56,7 +56,7 @@ QtObject {
     property real bloomQuality: 0.5
     property real burnInQuality: 0.5
 
-    property bool blinkingCursor: false
+    property bool blinkingCursor: true
 
     onWindowScalingChanged: handleFontChanged()
 
